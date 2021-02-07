@@ -8,7 +8,14 @@
             
             <!-- Locator-->
             <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
-                    
+             <!-- Parameters-->
+            <x:String x:Key="UrlAPI"><!--Aca va la URl del servicio --></x:String>
+            <x:String x:Key="UrlPrefix">/api
+                <!--Aca va la URl del servicio -->
+            </x:String>
+            <x:String x:Key="UrlProductsController">/Products
+                <!--Aca va la URl del servicio -->
+            </x:String>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

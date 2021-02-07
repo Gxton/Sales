@@ -21,7 +21,7 @@ namespace Sales.ViewModels
                 return;
             }
             backingField = value;
-            this.OnPropertyChanged(propertyName);    
-        
+            this.OnPropertyChanged(propertyName);
+        }
     }
 }
